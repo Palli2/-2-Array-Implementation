@@ -1,0 +1,17 @@
+#2: Array Implementation
+#include <iostream> #include <cstdlib> #include <cmath> using namespace std; // 
+A structure to represent a node in the Linked List struct Node { int row, col, val; struct Node* next; }; 
+// A structure to represent a sparse matrix struct SparseMatrix { int m, n, num; 
+// Dimensions of the sparse matrix struct Node* head; // Linked list of non-zero elements }; 
+// Function to create a new Node in the Linked List struct Node* newNode(int row, int col, int val)
+{ struct Node* temp = new Node; temp->row = row; temp->col = col; temp->val = val; temp->next = NULL; return temp; }
+
+#include <iostream> #include <cstdlib>
+#include <cmath> using namespace std; 
+// A structure to represent a node in the Linked List struct Node { int row, col, val; struct Node* next; }; 
+// A structure to represent a sparse matrix struct SparseMatrix { int m, n, num; 
+// Dimensions of the sparse matrix struct Node* head; // Linked list of non-zero elements }; 
+// Function to create a new Node in the Linked List struct Node* newNode(int row, int col, int val) 
+{ struct Node* temp = new Node; temp->row = row; temp->col = col; temp->val = val; temp->next = NULL; return temp; }
+
+
